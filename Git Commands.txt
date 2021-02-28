@@ -1,0 +1,16 @@
+git init
+
+git config --global user.name "asa" 
+git config --global user.email  "himanshudubey481@gmail.com"  
+
+git pull https://github.com/orineveriver/On_Time_Travel
+
+git add .
+
+git status
+
+git commit -m "Comment"
+
+git remote add origin https://github.com/orineveriver/On_Time_Travel
+
+git push -u origin master
